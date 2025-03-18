@@ -1,0 +1,19 @@
+inherited Main_Windows: TMain_Windows
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    inherited Memo1: TMemo
+      Viewport.Width = 265.000000000000000000
+      Viewport.Height = 97.000000000000000000
+    end
+    inherited Bouton: TButton
+      Position.X = 27.000000000000000000
+      Position.Y = 19.000000000000000000
+    end
+  end
+  inherited LytOpenDialog: TLayout
+    inherited ListBox1: TListBox
+      Viewport.Width = 243.000000000000000000
+      Viewport.Height = 125.000000000000000000
+    end
+  end
+end
